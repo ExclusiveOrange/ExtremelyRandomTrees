@@ -41,7 +41,7 @@ make
 ## Example: Applying A Model
 
 ```
-etpredict -m spambase.model -t data/spambase-test.csv -p spambase.predictions
+./etpredict -m spambase.model -t data/spambase-test.csv -p spambase.predictions
 ```
 
 `spambase.model` is a model file that you created with `etgrow` at some point.  
