@@ -1,5 +1,12 @@
 # Extremely Random Trees
 
+* [What](#what)
+* [Building](#building)
+* [Usage](#usage)
+* [Example: Growing a Model](#example-growing-a-model)
+* [Example: Applying a Model](#example-applying-a-model)
+* [Advanced Options](#advanced-options)
+
 ## What
 
 Extremely Random Trees is a machine-learning algorithm described in:
@@ -38,7 +45,7 @@ make
 `spambase-train.csv` is an example input training file, provided in this repository.  
 `spambase-model` is the output model file that `etgrow` will create, and can be named whatever you want.
 
-## Example: Applying A Model
+## Example: Applying a Model
 
 ```
 ./etpredict -m spambase.model -t data/spambase-test.csv -p spambase.predictions
