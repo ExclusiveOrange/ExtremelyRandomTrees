@@ -1,11 +1,11 @@
 # Extremely Random Trees
 
-### A C++ implementation of the ExtraTrees algorithm (Pierre Guerts, et al., 2005).
-
 ## What
 
-Extremely Random Trees is a machine-learning algorithm,
-particularly a more complex version of a Random Forest ensemble.
+Extremely Random Trees is a machine-learning algorithm described in:
+  "Extremely randomized trees", DOI 10.1007/s10994-006-6226-1,
+  by Pierre Geurts, Damien Ernst, Louis Wehenkel, 2005
+
 This is my own implementation of that algorithm as a friendly terminal program.
 It can be compiled and executed on any modern Unix/Linux/OSX computer.
 
@@ -14,14 +14,20 @@ It can be compiled and executed on any modern Unix/Linux/OSX computer.
 I've provided a Makefile which should do the job.
 After you've downloaded this repository, get into its directory in a terminal and do:
 
-'make'
+```
+make
+```
 
 ## Running
 
 ### Growing A Model
 
-'etgrow'
+```
+etgrow
+```
 
 ### Applying A Model
 
-'etpredict'
+```
+etpredict
+```
