@@ -1,3 +1,3 @@
 # Extremely Random Trees
 
-## A proof-of-concept implementation in C++.
+### A proof-of-concept implementation in C++.
